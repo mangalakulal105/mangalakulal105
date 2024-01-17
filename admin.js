@@ -1,6 +1,6 @@
 analyzer := jsluice.NewAnalyzer([]byte(`
     const login = (redirect) => {
-        document.location = "/supersecret?redirect=" + redirect + "&method=oauth"
+        document.location = "/superadmin/changepassword?redirect=" + redirect + "&method=oauth"
     }
 `))
 
