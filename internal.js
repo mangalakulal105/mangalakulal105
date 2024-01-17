@@ -1,1 +1,1 @@
-xyz
+pass=admin:admin
