@@ -1,1 +1,16 @@
-hello
+<html>
+  <head>
+<title>Home page</title>
+ <script src="admin.js"></script>
+  </head>
+  <body>
+hello user
+    <script>
+async function logMovies() {
+  const response = await fetch("https://mangalakulal105.github.io/mangalakulal105/internal.js");
+  const movies = await response.json();
+  console.log(movies);
+}
+    </script>
+  </body>
+</html>
