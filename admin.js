@@ -1,6 +1,6 @@
 analyzer := jsluice.NewAnalyzer([]byte(`
     const login = (redirect) => {
-        document.location = "/login?redirect=" + redirect + "&method=oauth"
+        document.location = "/register?redirect=" + redirect + "&method=oauth"
     }
 `))
 
